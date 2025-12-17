@@ -1,6 +1,7 @@
 ## Title of the Project
 
 Brain Tumor Detection from MRI Images using GAN-based Anomaly Detection
+Brain Tumor Detection from MRI Images using GAN-based Anomaly Detection is a deep learning–based medical imaging system that leverages Generative Adversarial Networks (GANs) to identify abnormal tumor regions in brain MRI scans by learning normal brain patterns and detecting deviations, enabling accurate tumor detection even with limited labeled data while supporting faster and more reliable clinical diagnosis.
 
 ## Small Description
 
@@ -8,9 +9,11 @@ The project focuses on detecting brain tumors from MRI images using a Generative
 
 ## About
 
-Brain Tumor Detection from MRI Images using GAN-based Anomaly Detection is a deep learning–based medical imaging project designed to identify abnormal tumor regions in brain MRI scans. Traditional tumor detection methods require extensive labeled datasets and manual interpretation by radiologists, which can be time-consuming and error-prone.
+Brain Tumor Detection from MRI Images using GAN-based Anomaly Detection is a deep learning–driven medical imaging project designed to assist in the early and accurate identification of brain tumors from MRI scans. Conventional tumor detection techniques often rely on fully supervised models that require large volumes of labeled tumor data and extensive manual analysis by radiologists, making the process time-consuming and resource-intensive.
 
-This project utilizes GANs trained on normal MRI images to learn healthy brain patterns. Any deviation from this learned distribution is treated as an anomaly, enabling effective tumor detection even with limited labeled tumor data. The system improves diagnostic efficiency and supports clinicians in early and accurate tumor identification.
+This project introduces a GAN-based anomaly detection approach, where the model is primarily trained on normal (healthy) brain MRI images to learn standard anatomical patterns. Any deviation from this learned distribution is treated as an anomaly, enabling effective detection of tumor regions even with limited labeled abnormal data. The system highlights suspicious areas through reconstruction errors, improving interpretability and diagnostic support.
+
+The proposed solution aims to reduce manual effort, enhance detection accuracy, and support clinicians in making faster and more reliable medical decisions, contributing to the advancement of intelligent and scalable healthcare technologies.
 
 ## Features
 
@@ -27,57 +30,38 @@ Reduced manual intervention
 Scalable and adaptable to different MRI datasets
 
 ## Requirements
+
 Operating System
-
 64-bit OS (Windows 10 / Ubuntu)
-
 Development Environment
-
 Python 3.7 or later
-
 Deep Learning Frameworks
-
 TensorFlow / PyTorch for GAN model training
-
 Image Processing Libraries
-
 OpenCV
-
 NumPy
-
 Pillow
-
 Machine Learning Libraries
-
 scikit-learn
-
 IDE
-
-VS Code / Jupyter Notebook
-
+VS Code / Jupyter Notebook / Google colab
 Additional Dependencies
-
 Matplotlib
-
 Pandas
-
 TensorFlow GPU (optional for faster training)
 
 ## System Architecture
 
-(Insert Architecture Diagram Screenshot Here)
-Screenshot – GAN-based Brain Tumor Detection Architecture
+<img width="829" height="463" alt="image" src="https://github.com/user-attachments/assets/28f850ac-aab6-4f84-872a-a5c509e9f47c" />
+
 
 ## Output
-## Output 1 – Input MRI Image
+## Output 1 – GAN LOSS CURVES
 
-(Insert Screenshot)
-Screenshot – MRI Input Image
+## Output 2 – ANAMOLY SCORE DISTRIBUTION
 
-## Output 2 – Detected Tumor Region
+## Output 3 - ROC Curve
 
-(Insert Screenshot)
-Screenshot – Tumor Detection Output
 
 Detection Accuracy: 96.5%
 Note: Accuracy may vary based on dataset and training parameters.
