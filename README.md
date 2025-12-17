@@ -57,10 +57,14 @@ TensorFlow GPU (optional for faster training)
 
 ## Output
 ## Output 1 – GAN LOSS CURVES
+<img width="796" height="504" alt="image" src="https://github.com/user-attachments/assets/e8f42491-f8b0-47dc-a9c4-2641690562d6" />
 
 ## Output 2 – ANAMOLY SCORE DISTRIBUTION
+<img width="769" height="519" alt="image" src="https://github.com/user-attachments/assets/9f906cb2-1736-4db7-98f1-fe116852f34e" />
+
 
 ## Output 3 - ROC Curve
+<img width="749" height="512" alt="image" src="https://github.com/user-attachments/assets/edaeab94-9a0f-4f81-a772-ba427463b970" />
 
 
 Detection Accuracy: 96.5%
